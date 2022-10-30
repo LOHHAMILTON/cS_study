@@ -18,12 +18,41 @@ using System.Threading.Tasks;
  * void swap(ref int a, ref int b)
  */
 
+// Name : 062_FuncSwap
+// Desc : 함수 기초:리턴형 x, 파라미터 0(2개 이상의 파라미터)
+
 namespace _062_FuncSwap
 {
     internal class Program
     {
+        static public void ValueSWap(int a, int b)
+        {
+            int temp = a;
+            a = b;
+            b = temp;
+
+            Console.WriteLine("ValueSwap");
+            Console.WriteLine("a :{0}  b : {1}", a, b);
+        }
+        static public void RefSWap(ref int a, ref int b)
+        {
+            int temp = a;
+            a = b;
+            b = temp;
+
+            Console.WriteLine("ValueSwap");
+            Console.WriteLine("a :{0} b : {1}", a, b);
+        }
         static void Main(string[] args)
         {
+            int num1 = 100;
+            int num2 = -100;
+
+            ValueSWap(num1, num2);
+            Console.WriteLine("a: {0} b : {1}", num1, num2);
+
+            RefSWap(ref num1, ref num2);
+            Console.WriteLine("a: {0} b : {1}", num1, num2);
 
         }
     }
