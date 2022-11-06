@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{248F72B3-6576-4C32-A9C3-15EE21376CB0}</ProjectGuid>
+    <ProjectGuid>{CBEE63E9-B9DB-4810-8BEA-39C96BC98226}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_108_Queue</RootNamespace>
-    <AssemblyName>108_Queue</AssemblyName>
+    <RootNamespace>_112_Exception</RootNamespace>
+    <AssemblyName>112_Exception</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

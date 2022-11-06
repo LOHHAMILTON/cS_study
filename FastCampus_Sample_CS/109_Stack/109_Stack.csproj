@@ -7,7 +7,7 @@
     <ProjectGuid>{EB1F8B32-E16D-49DF-AB82-74E4A9B73B2D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_109_Stack</RootNamespace>
-    <AssemblyName>_109_Stack</AssemblyName>
+    <AssemblyName>109_Stack</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
